@@ -10,5 +10,9 @@ router.get('/', function(req, res, next) {
 //添加账单
 router.post('/bill/addbill', bill.addbill);
 
+//查询账单
+router.get('/bill/getbill', bill.getbill);
+
+
 
 module.exports = router;
